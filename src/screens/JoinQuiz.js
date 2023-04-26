@@ -36,9 +36,9 @@ const JoinQuiz = () => {
 				<button className='join-button' onClick={handleJoinQuiz}>
 					Join Quiz
 				</button>
-				<button className='join-button' onClick={handleJoinBlindQuiz}>
+				{/* <button className='join-button' onClick={handleJoinBlindQuiz}>
 					Join As a Blind
-				</button>
+				</button> */}
 			</div>
 		</div>
 	)

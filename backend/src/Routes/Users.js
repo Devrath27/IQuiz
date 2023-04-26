@@ -14,6 +14,7 @@ Router.post('/create', (req, res) => {
 // Get user Data
 Router.get('/:uid', (req, res) => {
 	const uid = req.params.uid
+	console.log(uid);
 	if (!uid) return res.status(500).json({ error: 'Incomplete Parameters' })
 
 	DB.withDB(async (db) => {
